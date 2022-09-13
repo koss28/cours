@@ -1,0 +1,80 @@
+* {margin: 0; padding: 0; vertical-align: middle;}
+
+	.header1 {justify-content: center; color: rgb(39, 38, 38); text-align: center; margin-top: 10px;}
+	
+	.but { background: red; font-size: 40px; margin-top: 30px;}
+	.maz {height: 300px;}
+
+
+.head {	display: flex; 
+	justify-content: center; 
+	vertical-align: middle; 
+	background-color: rgb(183, 219, 219); 
+	height: 50px;
+	 }
+	.menu {display: inline-block; 
+			justify-content: center; 
+			vertical-align: middle;
+		height: 50px; }
+	.menu li {vertical-align: middle;
+			padding-left: 10px; padding-right: 10px;
+			display: inline-block; 
+			justify-content: center; }
+	.menu li :hover {color: blue; padding-left: 5px; padding-right: 5px; background-color: rgb(240, 233, 226); transition: 1s; display: table-cell; vertical-align: middle;}
+	.menu a {display: table-cell;
+			vertical-align: middle;
+			height: 50px;
+			text-decoration: none; 
+			color: black; 
+			justify-content: center; 
+			font-family: Arial, Helvetica, sans-serif;
+			}
+
+	.logo  {padding-top: 5px; margin-right: 30px; display: table-cell; color: black; justify-content: left; text-decoration: none;}
+	
+	.logoimg {display: inline-block; height: 45px; padding-top: 2px; margin-right: 5px;}
+
+	.excavator { display: inline-block; color: black; border-top: 3px solid #ccc; border-bottom: 3px solid #ccc; }
+	.excavator h2 {text-align: center; font-size: 25px;}
+	.excavator p {font-size: 20px; 
+				text-align: justify; 
+				font-family: Arial, Helvetica, sans-serif; margin-right: 5px;}
+	.imgexc {float: left; height: 400px; margin-right: 3px;}
+	.dem {border-bottom: 3px solid #ccc; height: 428px;}
+	.dem h2 {text-align: center; font-size: 25px;}
+	.dem p {font-size: 20px; 
+		text-align: justify; 
+		font-family: Arial, Helvetica, sans-serif; margin-left: 5px;}
+	.demimg {float: right; height: 400px; margin-left: 3px;}
+
+	.podr1 {text-decoration: none; font-size: 25px; color: black; background-color:rgb(183, 219, 219); padding: 10px;
+			margin-left: 22%;}
+	.podr1:hover  {text-decoration: none; font-size: 25px; color: black; background-color:rgb(183, 219, 219); padding: 12px;
+	margin-left: 22%; background-color: rgb(240, 233, 226); font-weight: bold; transition: 1s; }
+
+	.header_fixed {position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				
+			}
+
+			.videxc {height: 250px; margin-top: 3px;}
+			.center {text-align: right;}
+			
+			
+			.imgexc100 {width: 100%;}
+			.exc100 {position: relative;
+				text-align: center;
+				color: white;}
+			.textinimg {  position: absolute;
+				top: 150px;
+				text-align: center;
+				background: rgba(255, 255, 255, 0.774);
+				padding-left: 35%; padding-right: 35%; width: 30%;
+				color: black;
+				font-size: 40px; font-family: Arial, Helvetica, sans-serif;
+				
+			}
+		
+	
